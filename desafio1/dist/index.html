@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Calculadora</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="\desafio1\src\scss\style.css">
+
+        <!--bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+        
+    </head>
+    <body>
+        <div class="container">
+            <div class="erro">
+                <span id="erro"></span>
+            </div>
+
+
+            <form action="#" class="formulario">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" class="form-text" placeholder="Ex: Thiago"><br>
+
+                    <label for="nome">Peso:</label>
+                    <input type="number" id="peso" class="form-text" step="0.01" placeholder="Ex: 65.5"><br>
+
+                    <label for="nome">Altura:</label>
+                    <input type="number" id="altura" class="form-text" step="0.01" placeholder="Ex: 1.70"><br>
+
+                    <input type="submit" value="Calcular" class="btn btn-primary" id="btn-calcular">
+                </form>
+                    <div class="resultado">
+                        <span id="resultado"></span>
+                    </div>
+
+                    <form class="limpar">
+                        <input type="submit" value="Limpar" class="btn btn-primary" id="limpar">
+                    </form>
+                </div>   
+                
+        </div>
+        
+        
+        
+        
+        <script src="\desafio1\src\js\main.js"></script>
+
+    </body>
+</html>
